@@ -4,7 +4,25 @@ LMDB Analyzer est une application Python qui permet d'analyser le contenu des ba
 
 Sa conception a été réalisée à l'aide de chatGPT: https://chatgpt.com/share/61b5a1c0-1f79-42d3-85b6-12ffcb13db39
 
+
+## Docker
+
+Une image docker est disponible sous ``
+
+
+
+### Installation d'une image
+
+Pour installer l'image docker vous pouvez effectuer
+
+### Créer et publier une image
+
+### A partir du code
+
+
 ## Installation
+
+Avec le bon environnement vous pouvez installer avec:
 
 ```bash
 pip install .
