@@ -4,12 +4,18 @@ LMDB Analyzer est une application Python qui permet d'analyser le contenu des ba
 
 Sa conception a été réalisée à l'aide de chatGPT: https://chatgpt.com/share/61b5a1c0-1f79-42d3-85b6-12ffcb13db39
 
+## Utilisation à partir de l'image docker
+
+```bash
+docker run -v ${PWD}/poc/data:/data -it benk79tb/lmdb_analyzer:1.0.2 lmdb-analyzer --deserialization bytes /data/ben/keri/db/ben
+```
 
 ## Docker
 
-Une image docker est disponible sous ``
+Une image docker est disponible sous `benk79tb/lmdb_analyzer:1.0.2`
 
 
+____________________________________________________________
 
 ### Installation d'une image
 
